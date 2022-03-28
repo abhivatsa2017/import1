@@ -3,5 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Printf("Hejsan hoppsan\n")
+	var age int
+	age = 12
+
+	namn := "Stefan"
+
+	fmt.Printf("Hejsan hoppsan %s du är %d år\n", namn, age)
 }
