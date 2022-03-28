@@ -9,6 +9,15 @@ import (
 
 func main() {
 
+	for {
+		var sel int
+		_, err := fmt.Scanln(&sel)
+		if err == nil {
+			break
+		}
+		fmt.Printf("Inte valid nummer")
+	}
+
 	ifdemos.SwitchDemo()
 	loopdemos.LoopDemos()
 
