@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"main/arrayer"
 	"main/ifdemos"
 	"main/inputoutput"
 	"main/loopdemos"
@@ -9,6 +10,7 @@ import (
 
 func main() {
 
+	arrayer.Demo()
 	for {
 		var sel int
 		_, err := fmt.Scanln(&sel)
