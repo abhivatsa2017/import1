@@ -2,10 +2,15 @@ package main
 
 import (
 	"fmt"
+	"main/ifdemos"
 	"main/inputoutput"
+	"main/loopdemos"
 )
 
 func main() {
+
+	ifdemos.SwitchDemo()
+	loopdemos.LoopDemos()
 
 	age := 12
 	fmt.Printf("Hej %d du är %T år\n", age, age)
