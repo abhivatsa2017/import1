@@ -15,6 +15,8 @@ func main() {
 		if err == nil {
 			break
 		}
+		var clearbuf string
+		fmt.Scanln(&clearbuf)
 		fmt.Printf("Inte valid nummer")
 	}
 
