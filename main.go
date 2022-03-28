@@ -1,12 +1,36 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"main/inputoutput"
+)
 
 func main() {
-	var age int
-	age = 12
 
-	namn := "Stefan"
+	age := 12
+	fmt.Printf("Hej %d du är %T år\n", age, age)
 
-	fmt.Printf("Hejsan hoppsan %s du är %d år\n", namn, age)
+	inputoutput.Demo()
+
+	// var age int
+	// age = 12
+
+	// var tal1 int8
+	// var tal2 int16
+	// var tal3 int64
+
+	// tal1 = 1
+	// tal2 = 12
+
+	// tal3 = tal1 + tal2
+
+	// namn := "stefan	holmberg"
+	// namn = strings.ToTitle(namn)
+
+	// // var pi float64
+	// // pi = 3.1415
+
+	// var salary = 105.50
+
+	// fmt.Printf("Hejsan hoppsan %s du är %d %f år\n", namn, age, salary)
 }
