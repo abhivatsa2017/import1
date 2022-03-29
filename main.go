@@ -6,10 +6,11 @@ import (
 	"main/ifdemos"
 	"main/inputoutput"
 	"main/loopdemos"
+	"main/stackheap"
 )
 
 func main() {
-
+	stackheap.Demo()
 	arrayer.Demo()
 	for {
 		var sel int

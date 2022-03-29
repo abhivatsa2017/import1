@@ -1,0 +1,5 @@
+package funktioner
+
+func Hej() {
+
+}
