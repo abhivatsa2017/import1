@@ -7,9 +7,11 @@ import (
 	"main/inputoutput"
 	"main/loopdemos"
 	"main/stackheap"
+	"main/structs"
 )
 
 func main() {
+	structs.Demo()
 	stackheap.Demo()
 	arrayer.Demo()
 	for {
