@@ -27,7 +27,18 @@ func createPerson() *Person {
 	return &p1
 }
 
+var i = 12
+
 func Demo() {
+
+	myDictionary := map[string]int{}
+	myDictionary2 := make(map[string]int)
+	myDictionary3 := make(map[string]int, 10)
+
+	fmt.Println(myDictionary)
+	fmt.Println(myDictionary2)
+	fmt.Println(myDictionary3)
+
 	p3 := createPerson()
 	fmt.Println(p3)
 	p1 := Person{Name: "Stefan", Age: 49,

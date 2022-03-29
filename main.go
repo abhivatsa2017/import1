@@ -6,11 +6,28 @@ import (
 	"main/ifdemos"
 	"main/inputoutput"
 	"main/loopdemos"
+	"main/oopdemo"
 	"main/stackheap"
 	"main/structs"
 )
 
+func oopFunc() {
+	stefan := oopdemo.NewMonthly("Stefan", 12, "Test123", 12211, "Staden", 3000)
+	oliver := oopdemo.NewHourly("Oliver", 12, "Test123", 12211, "Staden", 40)
+
+	employees := []oopdemo.IPayable{}
+	employees = append(employees, stefan)
+	employees = append(employees, oliver)
+	for _, emp := range employees {
+		emp.CalculateSalary()
+	}
+
+	fmt.Printf("stefan: %v\n", stefan)
+	fmt.Printf("oliver: %v\n", oliver)
+}
+
 func main() {
+	oopFunc()
 	structs.Demo()
 	stackheap.Demo()
 	arrayer.Demo()
