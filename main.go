@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"main/arrayer"
+	"main/filedemo"
 	"main/ifdemos"
 	"main/inputoutput"
 	"main/loopdemos"
@@ -27,6 +28,8 @@ func oopFunc() {
 }
 
 func main() {
+	filedemo.Demo()
+
 	structs.Demo()
 	oopFunc()
 	stackheap.Demo()

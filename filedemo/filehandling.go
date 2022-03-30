@@ -1,0 +1,4 @@
+package filedemo
+
+func Demo() {
+}
