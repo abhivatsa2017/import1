@@ -27,8 +27,8 @@ func oopFunc() {
 }
 
 func main() {
-	oopFunc()
 	structs.Demo()
+	oopFunc()
 	stackheap.Demo()
 	arrayer.Demo()
 	for {
